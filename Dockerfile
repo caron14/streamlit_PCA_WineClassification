@@ -12,8 +12,3 @@ RUN pip install numpy==1.21.0 \
 
 WORKDIR /work
 
-# 
-# docker run -it -p 8888:8888 -v ~/git-portfolio/streamlit_PCA_WineClassification:/work <Image ID> bash
-# streamlit run ***.py --server.port 8888
-# --> localhost:8888
-
